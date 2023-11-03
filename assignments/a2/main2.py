@@ -6,9 +6,13 @@ from packet_struct import IP_Header, TCP_Header, packet
 
 class Connection:
     def __init__(self, src_ip, src_port, dest_ip, dest_port):
-        self.endpoints = sorted([(src_ip, src_port), (dest_ip, dest_port)])
-        self.src_ip, self.src_port = self.endpoints[0]
-        self.dest_ip, self.dest_port = self.endpoints[1]
+        # self.endpoints = sorted([(src_ip, src_port), (dest_ip, dest_port)])
+        # self.src_ip, self.src_port = self.endpoints[0]
+        # self.dest_ip, self.dest_port = self.endpoints[1]
+
+        self.src_ip, self.src_port = src_ip, src_port
+        self.dest_ip, self.dest_port = dest_ip, dest_port
+
         # self.src_port = src_port
         # self.dest_ip = dest_ip
         # self.dest_port = dest_port
@@ -45,8 +49,15 @@ class Connection:
     def __hash__(self):
         return hash((self.src_ip, self.src_port, self.dest_ip, self.dest_port))
 
+    # def __eq__(self, other):
+    #     return (self.src_ip, self.src_port, self.dest_ip, self.dest_port) == (other.src_ip, other.src_port, other.dest_ip, other.dest_port) or \
+    #         (self.src_ip, self.src_port, self.dest_ip, self.dest_port) == (
+    #             other.dest_ip, other.dest_port, other.src_ip, other.src_port)
+
     def __eq__(self, other):
-        return (self.src_ip, self.src_port, self.dest_ip, self.dest_port) == (other.src_ip, other.src_port, other.dest_ip, other.dest_port)
+        # Compare considering direction
+        return (self.src_ip, self.src_port, self.dest_ip, self.dest_port) == \
+            (other.src_ip, other.src_port, other.dest_ip, other.dest_port)
 
 
 class PcapParser:
@@ -54,6 +65,9 @@ class PcapParser:
         self.filename = filename
         self.connections = {}
         self.byte_order = '<'  # Default to little endian
+        self.start_timestamp = None
+        self.ack_packets = []
+        self.seq_packets = []
 
     def parse(self):
         with open(self.filename, 'rb') as f:
@@ -76,6 +90,11 @@ class PcapParser:
                 ts_sec, ts_usec, incl_len, _ = struct.unpack(
                     self.byte_order + 'IIII', packet_header)
                 timestamp = ts_sec + ts_usec * 0.000001
+
+                if self.start_timestamp is None:
+                    self.start_timestamp = timestamp
+
+                timestamp -= self.start_timestamp
 
                 packet_data = f.read(incl_len)
                 eth_header = packet_data[:14]
@@ -106,6 +125,7 @@ class PcapParser:
                             tcp_header_obj.data_offset,  # Pass the data offset
                             tcp_packet_data  # Pass the tcp_packet_data
                         )
+        self._calculate_rtt_method_2()
         return self.connections
 
     def _handle_tcp_packet(self, src_ip, dest_ip, src_port, dest_port, tcp_flags, timestamp, length, data_offset, tcp_packet_data):
@@ -156,6 +176,45 @@ class PcapParser:
         else:
             connection.packets_dest_to_src += 1
             connection.bytes_dest_to_src += length - (14 + tcp_header_len)
+
+        ack_number = struct.unpack('>I', tcp_packet_data[8:12])[0]
+        seq_number = struct.unpack('>I', tcp_packet_data[4:8])[0]
+
+        self.ack_packets.append({
+            'ack_number': ack_number,
+            'timestamp': timestamp,
+            'src_ip': src_ip,
+            'src_port': src_port,
+            'dest_ip': dest_ip,
+            'dest_port': dest_port,
+        })
+
+        self.seq_packets.append({
+            'seq_number': seq_number,
+            'timestamp': timestamp,
+            'src_ip': src_ip,
+            'src_port': src_port,
+            'dest_ip': dest_ip,
+            'dest_port': dest_port,
+        })
+
+    def _calculate_rtt_method_2(self):
+        for ack_packet in reversed(self.ack_packets):
+            same_ack_packets = [pkt for pkt in self.ack_packets if pkt['ack_number'] == ack_packet['ack_number'] and pkt['src_ip'] == ack_packet['src_ip']
+                                and pkt['src_port'] == ack_packet['src_port'] and pkt['dest_ip'] == ack_packet['dest_ip'] and pkt['dest_port'] == ack_packet['dest_port']]
+
+            if len(same_ack_packets) > 1:
+                continue
+
+            # Find first data packet with smaller seq number
+            for seq_packet in reversed(self.seq_packets):
+                if seq_packet['seq_number'] < ack_packet['ack_number'] and seq_packet['src_ip'] == ack_packet['dest_ip'] and seq_packet['src_port'] == ack_packet['dest_port'] and seq_packet['dest_ip'] == ack_packet['src_ip'] and seq_packet['dest_port'] == ack_packet['src_port']:
+                    rtt = ack_packet['timestamp'] - seq_packet['timestamp']
+                    conn = Connection(
+                        seq_packet['src_ip'], seq_packet['src_port'], seq_packet['dest_ip'], seq_packet['dest_port'])
+                    if conn in self.connections:
+                        self.connections[conn].rtts.append(rtt)
+                    break
 
     def compute_stats(self):
         # Compute and print statistics
@@ -218,9 +277,17 @@ class PcapParser:
         print(
             f"Minimum RTT value: {min(all_rtts):.6f}\nMean RTT value: {sum(all_rtts)/len(all_rtts):.6f}\nMaximum RTT value: {max(all_rtts):.6f}\n")
         print(
-            f"Minimum number of packets including both send/received: {min(packet_counts)}\nMean number of packets including both send/received: {sum(packet_counts)/len(packet_counts)}\nMaximum number of packets including both send/received: {max(packet_counts)}\n")
+            f"Minimum number of packets including both send/received: {min(packet_counts)}")
+        print(f"Mean number of packets including both send/received:",
+              "{:.4f}".format(sum(packet_counts)/len(packet_counts)))
         print(
-            f"Minimum receive window size including both send/received: {min(all_window_sizes)}\nMean receive window size including both send/received: {sum(all_window_sizes)/len(all_window_sizes)}\nMaximum receive window size including both send/received: {max(all_window_sizes)}")
+            f"Maximum number of packets including both send/received: {max(packet_counts)}\n")
+        print(f"Minimum receive window size including both send/received:",
+              min(all_window_sizes), "bytes")
+        print(
+            f"Mean receive window size including both send/received:", "{:.6f}".format(sum(all_window_sizes)/len(all_window_sizes)), "bytes")
+        print(
+            f"Maximum receive window size including both send/received: {max(all_window_sizes)} bytes")
 
 
 def analyze(filename):
@@ -241,25 +308,24 @@ def analyze(filename):
         print("Destination Port:", connection.dest_port)
         print("Status:", connection.connection_state())
         # assuming S2F2 represents a complete connection
-        if connection.connection_state() in ["S2F2", "R"]:
-            print("Start time:", connection.start_time)
-            print("End Time:", connection.end_time)
-            print("Duration:", duration)
-            print("Number of packets sent from Source to Destination:",
-                  connection.packets_src_to_dest)
-            print("Number of packets sent from Destination to Source:",
-                  connection.packets_dest_to_src)
-            print("Total number of packets:", connection.packets)
-            print("Number of data bytes sent from Source to Destination:",
-                  connection.bytes_src_to_dest)
-            print("Number of data bytes sent from Destination to Source:",
-                  connection.bytes_dest_to_src)
-            print("Total number of data bytes:", connection.data_bytes)
+        # if connection.connection_state() in ["S2F2", "R"]:
+        print("Start time:", "{:.6f}".format(connection.start_time))
+        print("End Time:", "{:.6f}".format(connection.end_time))
+        # print("End Time:", connection.end_time)
+        print("Duration:", "{:.5f}".format(duration))
+        print("Number of packets sent from Source to Destination:",
+              connection.packets_src_to_dest)
+        print("Number of packets sent from Destination to Source:",
+              connection.packets_dest_to_src)
+        print("Total number of packets:", connection.packets)
+        print("Number of data bytes sent from Source to Destination:",
+              connection.bytes_src_to_dest)
+        print("Number of data bytes sent from Destination to Source:",
+              connection.bytes_dest_to_src)
+        print("Total number of data bytes:", connection.data_bytes)
         print("END")
     parser.count_connections()
     parser.compute_detailed_stats()
-
-    # Here you can start computing the statistics and printing the results as per the assignment requirements. The information is stored in the connections dictionary.
 
 
 if __name__ == "__main__":
