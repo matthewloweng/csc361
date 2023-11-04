@@ -52,7 +52,7 @@ def print_statistics(all_window_sizes, all_rtts):
 
 
 def print_connection_counts(complete_connections, reset_connections, open_connections):
-    print("\nC) General\n")
+    print("C) General\n")
     print(f"Total number of complete TCP connections: {complete_connections}")
     print(f"Number of reset TCP connections: {reset_connections}")
     print(

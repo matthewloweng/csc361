@@ -62,7 +62,7 @@ class PcapParser:
                         tcp_header_obj.get_data_offset(
                             tcp_packet_data[12:13])  # Extract the data offset
 
-                        self._handle_tcp_packet(
+                        self.handle_tcp_packet(
                             ip_header_obj.src_ip, ip_header_obj.dst_ip,
                             tcp_header_obj.src_port, tcp_header_obj.dst_port,
                             tcp_header_obj.flags, timestamp, len(packet_data),
@@ -71,7 +71,7 @@ class PcapParser:
                             ip_header_len,
                             ip_packet
                         )
-        self._calculate_rtt_method_2()
+        self.calculate_rtt_method_2()
         return self.connections
 
     def calculate_payload_bytes(self, total_packet_length, ip_header_length, tcp_header_length):
@@ -80,7 +80,7 @@ class PcapParser:
             (ethernet_header_length + ip_header_length + tcp_header_length)
         return payload_size
 
-    def _handle_tcp_packet(self, src_ip, dest_ip, src_port, dest_port, tcp_flags, timestamp, length, data_offset, tcp_packet_data, ip_header_len, ip_packet):
+    def handle_tcp_packet(self, src_ip, dest_ip, src_port, dest_port, tcp_flags, timestamp, length, data_offset, tcp_packet_data, ip_header_len, ip_packet):
         con = Connection(src_ip, src_port, dest_ip, dest_port)
         if con not in self.connections:
             self.connections[con] = con
@@ -180,7 +180,7 @@ class PcapParser:
             'dest_port': dest_port,
         })
 
-    def _calculate_rtt_method_2(self):
+    def calculate_rtt_method_2(self):
         for ack_packet in reversed(self.ack_packets):
             same_ack_packets = [pkt for pkt in self.ack_packets if pkt['ack_number'] == ack_packet['ack_number'] and pkt['src_ip'] == ack_packet['src_ip']
                                 and pkt['src_port'] == ack_packet['src_port'] and pkt['dest_ip'] == ack_packet['dest_ip'] and pkt['dest_port'] == ack_packet['dest_port']]
