@@ -203,7 +203,7 @@ class PcapParser:
                             for win in conn.window_sizes]
         all_rtts = [rtt for conn in self.connections.values()
                     for rtt in conn.rtts]
-
+        # returning since printing elsewhere
         return all_window_sizes, all_rtts
 
     def count_connections(self):
@@ -218,9 +218,9 @@ class PcapParser:
     def get_flags(self, buffer):
         value = struct.unpack("B", buffer)[0]
         fin = value & 1
-        syn = (value & 2) >> 1
+        syn = (value & 2) >> 1 # extract syn flag
         rst = (value & 4) >> 2  # extract reset flag
-        ack = (value & 16) >> 4
+        ack = (value & 16) >> 4 # extract ack flag
         self.flags_set(ack, rst, syn, fin)
         return None
 
