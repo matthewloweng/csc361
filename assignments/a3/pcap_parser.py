@@ -12,6 +12,9 @@ class PcapParser:
         self.start_timestamp = None
         self.ack_packets = []
         self.seq_packets = []
+        self.fragments = {}  # Key: Datagram ID, Value: Fragment details
+        self.protocol_values = set()  # To store unique protocol values
+        self.rtt_data = {}  # Key: IP Address, Value: List of RTTs
 
     def parse(self):
         with open(self.filename, 'rb') as f:
