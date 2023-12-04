@@ -31,6 +31,7 @@ class PcapParser:
         self.protocol_values = {}  # To store unique protocol values
         self.rtt_data = {}  # Key: IP Address, Value: List of RTTs
         self.intermediate_ips_with_ttl = {}  # Key: TTL, Value, Set of IPs
+        self.original_datagrams = {}
 
     def parse(self):
         with open(self.filename, 'rb') as f:
@@ -100,10 +101,13 @@ class PcapParser:
                         udp_header = ip_packet[header_length:header_length + 8]
                         src_port, dest_port = struct.unpack(
                             '!HH', udp_header[:4])
+                        if not (33434 <= dest_port <= 33529):
+                            continue
 
                         # Skip DNS packets
                         if src_port == DNS_PORT or dest_port == DNS_PORT:
                             continue
+                        self.original_datagrams[dest_port] = ip_packet[8]
 
                     if first_packet:
                         self.source_node_ip = ip_header_obj.src_ip
@@ -135,21 +139,58 @@ class PcapParser:
 
                     # Check for ICMP protocol (value 1) to find intermediate routers
                     if protocol == 1:  # ICMP protocol
-
-                        # Extract the ICMP packet from the IP packet
                         icmp_packet = ip_packet[header_length:]
                         icmp_type, icmp_code = struct.unpack(
                             '!BB', icmp_packet[:2])
-                        if icmp_type not in [8, 11]:
-                            continue
-                        # print(f"ICMP type: {icmp_type}, code: {icmp_code}")
                         if icmp_type == 11 and icmp_code == 0:  # Time Exceeded Message
-                            ttl = ip_packet[8]
-                            intermediate_ip = ip_header_obj.src_ip
-                            orig_ip_packet = icmp_packet[8:28]
-                            orig_ip_header = struct.unpack(
-                                '!BBHHHBBH4s4s', orig_ip_packet[:20])
-                            orig_ttl = orig_ip_header[5]
+                            # Extract encapsulated IP packet
+                            encapsulated_ip_packet = icmp_packet[8:]
+                            # Check if it's long enough to contain a header
+                            if len(encapsulated_ip_packet) > 20:
+                                encapsulated_ip_header_obj = IP_Header()
+                                encapsulated_ip_header_obj.get_IP(
+                                    encapsulated_ip_packet[12:16], encapsulated_ip_packet[16:20])
+                                encapsulated_ip_header_obj.get_header_len(
+                                    encapsulated_ip_packet[0:1])
+
+                                encapsulated_header_length = encapsulated_ip_header_obj.ip_header_len
+                                encapsulated_protocol = encapsulated_ip_packet[9]
+
+                                if encapsulated_protocol == 17:  # Encapsulated UDP
+                                    # Check for UDP header
+                                    if len(encapsulated_ip_packet) >= encapsulated_header_length + 8:
+                                        udp_header = encapsulated_ip_packet[
+                                            encapsulated_header_length:encapsulated_header_length + 8]
+                                        _, dest_port = struct.unpack(
+                                            '!HH', udp_header[:4])
+
+                                        # Check if this is the UDP packet we are interested in
+                                        if 33434 <= dest_port <= 33529:
+                                            # Store intermediate router information
+                                            intermediate_ip = ip_header_obj.src_ip
+                                            orig_ttl = ip_packet[8]
+                                            if orig_ttl not in self.intermediate_ips_with_ttl:
+                                                self.intermediate_ips_with_ttl[orig_ttl] = set(
+                                                )
+                                            self.intermediate_ips_with_ttl[orig_ttl].add(
+                                                intermediate_ip)
+
+                            # OLD CODE
+                            # orig_datagram_port =
+                            # ttl = ip_packet[8]
+                            # intermediate_ip = ip_header_obj.src_ip
+                            # orig_ip_packet = icmp_packet[8:28]
+                            # orig_ip_header = struct.unpack(
+                            #     '!BBHHHBBH4s4s', orig_ip_packet[:20])
+
+                            # orig_ttl = self.original_datagrams.get(orig_datagram_port, None)
+                            # if orig_ttl is not None:
+                            #     if orig_ttl not in self.intermediate_ips_with_ttl:
+                            #         self.intermediate_ips_with_ttl[orig_ttl] = set()
+                            #     self.intermediate_ips_with_ttl[orig_ttl].add(intermediate_ip)
+
+                            #     # OLD CODE
+                            # orig_ttl = orig_ip_header[5]
                             # orig_ip_header = struct.unpack(
                             #     '!BBHHHBBH4s4s', orig_ip_packet)
                             # # Get source IP address from original IP header
