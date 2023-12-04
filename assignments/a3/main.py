@@ -14,6 +14,9 @@ def main():
         sys.exit(1)
 
     cap_file = sys.argv[1]
+    pcap_file_path = f"PcapTracesAssignment3/{cap_file}"
+    pcap_parser = PcapParser(pcap_file_path)
+    pcap_parser.parse()
 
 
 if __name__ == "__main__":

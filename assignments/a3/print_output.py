@@ -11,4 +11,6 @@ def print_results():
     print(f"The IP address of the source node: ")
     print(f"The IP address of the ultimate destination node: ")
     print(f"The IP addresses of th eintermediate destination nodes:")
+
+    print(f"The values in the protocol field of IP headers:")
     return 0

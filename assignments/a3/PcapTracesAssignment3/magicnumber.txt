@@ -1,0 +1,2976 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    192.168.100.17        8.8.8.8               DNS      78     Standard query 0x5bf1 A connex.csc.uvic.ca
+
+Frame 1: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 50420, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000036000    192.168.100.17        8.8.8.8               DNS      78     Standard query 0x1fa8 AAAA connex.csc.uvic.ca
+
+Frame 2: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 50420, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000047000    192.168.100.17        142.104.71.81         TCP      74     34880 → 443 [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM TSval=63930217 TSecr=0 WS=128
+
+Frame 3: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 142.104.71.81
+Transmission Control Protocol, Src Port: 34880, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.004009000    142.104.71.81         192.168.100.17        TCP      74     443 → 34880 [SYN, ACK] Seq=0 Ack=1 Win=28960 Len=0 MSS=1460 SACK_PERM TSval=1232117278 TSecr=63930217 WS=128
+
+Frame 4: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 142.104.71.81, Dst: 192.168.100.17
+Transmission Control Protocol, Src Port: 443, Dst Port: 34880, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.004050000    192.168.100.17        142.104.71.81         TCP      66     34880 → 443 [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=63930218 TSecr=1232117278
+
+Frame 5: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 142.104.71.81
+Transmission Control Protocol, Src Port: 34880, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.004166000    192.168.100.17        142.104.71.81         TLSv1.2  583    Client Hello
+
+Frame 6: 583 bytes on wire (4664 bits), 583 bytes captured (4664 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 142.104.71.81
+Transmission Control Protocol, Src Port: 34880, Dst Port: 443, Seq: 1, Ack: 1, Len: 517
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.006574000    142.104.71.81         192.168.100.17        TCP      66     443 → 34880 [ACK] Seq=1 Ack=518 Win=30080 Len=0 TSval=1232117279 TSecr=63930218
+
+Frame 7: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 142.104.71.81, Dst: 192.168.100.17
+Transmission Control Protocol, Src Port: 443, Dst Port: 34880, Seq: 1, Ack: 518, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.007898000    142.104.71.81         192.168.100.17        TLSv1.2  203    Server Hello, Change Cipher Spec, Encrypted Handshake Message
+
+Frame 8: 203 bytes on wire (1624 bits), 203 bytes captured (1624 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 142.104.71.81, Dst: 192.168.100.17
+Transmission Control Protocol, Src Port: 443, Dst Port: 34880, Seq: 1, Ack: 518, Len: 137
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.007905000    192.168.100.17        142.104.71.81         TCP      66     34880 → 443 [ACK] Seq=518 Ack=138 Win=30336 Len=0 TSval=63930219 TSecr=1232117279
+
+Frame 9: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 142.104.71.81
+Transmission Control Protocol, Src Port: 34880, Dst Port: 443, Seq: 518, Ack: 138, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.017076000    8.8.8.8               192.168.100.17        DNS      94     Standard query response 0x5bf1 A connex.csc.uvic.ca A 142.104.71.81
+
+Frame 10: 94 bytes on wire (752 bits), 94 bytes captured (752 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 50420
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.017709000    8.8.8.8               192.168.100.17        DNS      131    Standard query response 0x1fa8 AAAA connex.csc.uvic.ca SOA ns2.engr.uvic.ca
+
+Frame 11: 131 bytes on wire (1048 bits), 131 bytes captured (1048 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 50420
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.030271000    192.168.100.17        142.104.71.81         TLSv1.2  117    Change Cipher Spec, Encrypted Handshake Message
+
+Frame 12: 117 bytes on wire (936 bits), 117 bytes captured (936 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 142.104.71.81
+Transmission Control Protocol, Src Port: 34880, Dst Port: 443, Seq: 518, Ack: 138, Len: 51
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 0.030371000    192.168.100.17        142.104.71.81         TLSv1.2  888    Application Data
+
+Frame 13: 888 bytes on wire (7104 bits), 888 bytes captured (7104 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 142.104.71.81
+Transmission Control Protocol, Src Port: 34880, Dst Port: 443, Seq: 569, Ack: 138, Len: 822
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 0.032624000    142.104.71.81         192.168.100.17        TCP      66     443 → 34880 [ACK] Seq=138 Ack=1391 Win=31744 Len=0 TSval=1232117285 TSecr=63930224
+
+Frame 14: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 142.104.71.81, Dst: 192.168.100.17
+Transmission Control Protocol, Src Port: 443, Dst Port: 34880, Seq: 138, Ack: 1391, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 0.060778000    142.104.71.81         192.168.100.17        TLSv1.2  932    Application Data, Application Data, Application Data
+
+Frame 15: 932 bytes on wire (7456 bits), 932 bytes captured (7456 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 142.104.71.81, Dst: 192.168.100.17
+Transmission Control Protocol, Src Port: 443, Dst Port: 34880, Seq: 138, Ack: 1391, Len: 866
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 0.098602000    192.168.100.17        142.104.71.81         TCP      66     34880 → 443 [ACK] Seq=1391 Ack=1004 Win=32128 Len=0 TSval=63930242 TSecr=1232117292
+
+Frame 16: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 142.104.71.81
+Transmission Control Protocol, Src Port: 34880, Dst Port: 443, Seq: 1391, Ack: 1004, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 0.624666000    Cisco_79:fd:00        Spanning-tree-(for-bridges)_00 STP      60     RST. Root = 8192/0/00:16:9c:b4:89:40  Cost = 1  Port = 0x8091
+
+Frame 17: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 0.757215000    192.168.100.17        8.8.8.8               UDP      74     45344 → 33434 Len=32
+
+Frame 18: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 45344, Dst Port: 33434
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 0.757242000    192.168.100.17        8.8.8.8               UDP      74     48975 → 33435 Len=32
+
+Frame 19: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 48975, Dst Port: 33435
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 0.757258000    192.168.100.17        8.8.8.8               UDP      74     40110 → 33436 Len=32
+
+Frame 20: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 40110, Dst Port: 33436
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 0.757272000    192.168.100.17        8.8.8.8               UDP      74     46241 → 33437 Len=32
+
+Frame 21: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 46241, Dst Port: 33437
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 0.757286000    192.168.100.17        8.8.8.8               UDP      74     60688 → 33438 Len=32
+
+Frame 22: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 60688, Dst Port: 33438
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 0.757300000    192.168.100.17        8.8.8.8               UDP      74     45930 → 33439 Len=32
+
+Frame 23: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 45930, Dst Port: 33439
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 0.757313000    192.168.100.17        8.8.8.8               UDP      74     60038 → 33440 Len=32
+
+Frame 24: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 60038, Dst Port: 33440
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 0.757327000    192.168.100.17        8.8.8.8               UDP      74     48895 → 33441 Len=32
+
+Frame 25: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 48895, Dst Port: 33441
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 0.757340000    192.168.100.17        8.8.8.8               UDP      74     41564 → 33442 Len=32
+
+Frame 26: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 41564, Dst Port: 33442
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 0.757354000    192.168.100.17        8.8.8.8               UDP      74     42541 → 33443 Len=32
+
+Frame 27: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 42541, Dst Port: 33443
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 0.757367000    192.168.100.17        8.8.8.8               UDP      74     41326 → 33444 Len=32
+
+Frame 28: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 41326, Dst Port: 33444
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 0.757381000    192.168.100.17        8.8.8.8               UDP      74     38441 → 33445 Len=32
+
+Frame 29: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 38441, Dst Port: 33445
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 0.757394000    192.168.100.17        8.8.8.8               UDP      74     53293 → 33446 Len=32
+
+Frame 30: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 53293, Dst Port: 33446
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 0.757407000    192.168.100.17        8.8.8.8               UDP      74     59062 → 33447 Len=32
+
+Frame 31: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 59062, Dst Port: 33447
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 0.757421000    192.168.100.17        8.8.8.8               UDP      74     59977 → 33448 Len=32
+
+Frame 32: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 59977, Dst Port: 33448
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 0.757434000    192.168.100.17        8.8.8.8               UDP      74     43296 → 33449 Len=32
+
+Frame 33: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 43296, Dst Port: 33449
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 0.768327000    142.104.68.167        192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 34: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 142.104.68.167, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 0.768611000    142.104.68.167        192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 35: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 142.104.68.167, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 0.768877000    142.104.68.167        192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 36: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 142.104.68.167, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 0.768930000    192.168.100.17        8.8.8.8               DNS      87     Standard query 0x4062 PTR 167.68.104.142.in-addr.arpa
+
+Frame 37: 87 bytes on wire (696 bits), 87 bytes captured (696 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 35117, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 0.773041000    192.168.9.5           192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 38: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.9.5, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 0.773345000    192.168.9.5           192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 39: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.9.5, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 0.773620000    192.168.9.5           192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 40: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.9.5, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 0.773879000    142.104.68.1          192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 41: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 142.104.68.1, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 0.774134000    142.104.68.1          192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 42: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 142.104.68.1, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 0.774397000    142.104.68.1          192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 43: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 142.104.68.1, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 0.774664000    192.168.10.1          192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 44: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.10.1, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 0.774928000    192.168.10.1          192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 45: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.10.1, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 0.775196000    192.168.10.1          192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 46: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.10.1, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 0.775466000    192.168.8.6           192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 47: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.8.6, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 0.775782000    192.168.8.6           192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 48: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.8.6, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 0.776057000    192.168.8.6           192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 49: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.8.6, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 0.776715000    142.104.252.37        192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 50: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 142.104.252.37, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 0.778975000    8.8.8.8               192.168.100.17        DNS      118    Standard query response 0x4062 PTR 167.68.104.142.in-addr.arpa PTR panlab.cs.uvic.ca
+
+Frame 51: 118 bytes on wire (944 bits), 118 bytes captured (944 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 35117
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 0.779066000    192.168.100.17        8.8.8.8               UDP      74     48837 → 33450 Len=32
+
+Frame 52: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 48837, Dst Port: 33450
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 0.779208000    192.168.100.17        8.8.8.8               DNS      85     Standard query 0xe7a0 PTR 1.68.104.142.in-addr.arpa
+
+Frame 53: 85 bytes on wire (680 bits), 85 bytes captured (680 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 53186, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 0.782518000    142.104.252.37        192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 54: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 142.104.252.37, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 0.810527000    8.8.8.8               192.168.100.17        DNS      145    Standard query response 0xe7a0 No such name PTR 1.68.104.142.in-addr.arpa SOA ns2.engr.uvic.ca
+
+Frame 55: 145 bytes on wire (1160 bits), 145 bytes captured (1160 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 53186
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 0.810652000    192.168.100.17        8.8.8.8               DNS      84     Standard query 0x94d4 PTR 5.9.168.192.in-addr.arpa
+
+Frame 56: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 50232, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 0.819074000    8.8.8.8               192.168.100.17        DNS      84     Standard query response 0x94d4 No such name PTR 5.9.168.192.in-addr.arpa
+
+Frame 57: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 50232
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 0.819155000    192.168.100.17        8.8.8.8               DNS      85     Standard query 0xcdc7 PTR 1.10.168.192.in-addr.arpa
+
+Frame 58: 85 bytes on wire (680 bits), 85 bytes captured (680 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 40336, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 0.827610000    8.8.8.8               192.168.100.17        DNS      85     Standard query response 0xcdc7 No such name PTR 1.10.168.192.in-addr.arpa
+
+Frame 59: 85 bytes on wire (680 bits), 85 bytes captured (680 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 40336
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 0.827709000    192.168.100.17        8.8.8.8               DNS      84     Standard query 0xa5a1 PTR 6.8.168.192.in-addr.arpa
+
+Frame 60: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 34919, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 0.836166000    8.8.8.8               192.168.100.17        DNS      84     Standard query response 0xa5a1 No such name PTR 6.8.168.192.in-addr.arpa
+
+Frame 61: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 34919
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 0.836251000    192.168.100.17        8.8.8.8               DNS      87     Standard query 0xb5ea PTR 37.252.104.142.in-addr.arpa
+
+Frame 62: 87 bytes on wire (696 bits), 87 bytes captured (696 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 38602, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 0.852146000    8.8.8.8               192.168.100.17        DNS      123    Standard query response 0xb5ea PTR 37.252.104.142.in-addr.arpa PTR csc1cled050.bb.uvic.ca
+
+Frame 63: 123 bytes on wire (984 bits), 123 bytes captured (984 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 38602
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 0.852190000    192.168.100.17        8.8.8.8               UDP      74     33804 → 33451 Len=32
+
+Frame 64: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 33804, Dst Port: 33451
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 0.852204000    192.168.100.17        8.8.8.8               UDP      74     52607 → 33452 Len=32
+
+Frame 65: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 52607, Dst Port: 33452
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 0.852216000    192.168.100.17        8.8.8.8               UDP      74     40730 → 33453 Len=32
+
+Frame 66: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 40730, Dst Port: 33453
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 0.852227000    192.168.100.17        8.8.8.8               UDP      74     59297 → 33454 Len=32
+
+Frame 67: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 59297, Dst Port: 33454
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 0.852239000    192.168.100.17        8.8.8.8               UDP      74     39976 → 33455 Len=32
+
+Frame 68: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 39976, Dst Port: 33455
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 0.852251000    192.168.100.17        8.8.8.8               UDP      74     50196 → 33456 Len=32
+
+Frame 69: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 50196, Dst Port: 33456
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 0.852263000    192.168.100.17        8.8.8.8               UDP      74     58242 → 33457 Len=32
+
+Frame 70: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 58242, Dst Port: 33457
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 0.852274000    192.168.100.17        8.8.8.8               UDP      74     56469 → 33458 Len=32
+
+Frame 71: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 56469, Dst Port: 33458
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 0.852286000    192.168.100.17        8.8.8.8               UDP      74     45197 → 33459 Len=32
+
+Frame 72: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 45197, Dst Port: 33459
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 0.852297000    192.168.100.17        8.8.8.8               UDP      74     55398 → 33460 Len=32
+
+Frame 73: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 55398, Dst Port: 33460
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 0.852309000    192.168.100.17        8.8.8.8               UDP      74     53809 → 33461 Len=32
+
+Frame 74: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 53809, Dst Port: 33461
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 0.852321000    192.168.100.17        8.8.8.8               UDP      74     54383 → 33462 Len=32
+
+Frame 75: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 54383, Dst Port: 33462
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 0.852333000    192.168.100.17        8.8.8.8               UDP      74     60932 → 33463 Len=32
+
+Frame 76: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 60932, Dst Port: 33463
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 0.852345000    192.168.100.17        8.8.8.8               UDP      74     41414 → 33464 Len=32
+
+Frame 77: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 41414, Dst Port: 33464
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 0.852356000    192.168.100.17        8.8.8.8               UDP      74     56524 → 33465 Len=32
+
+Frame 78: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 56524, Dst Port: 33465
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 0.852383000    192.168.100.17        8.8.8.8               UDP      74     56610 → 33466 Len=32
+
+Frame 79: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 56610, Dst Port: 33466
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 0.865041000    142.104.252.37        192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 80: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 142.104.252.37, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 0.865104000    192.168.100.17        8.8.8.8               UDP      74     44632 → 33467 Len=32
+
+Frame 81: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 44632, Dst Port: 33467
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 0.865352000    142.104.252.246       192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 82: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 142.104.252.246, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 0.865436000    192.168.100.17        8.8.8.8               DNS      88     Standard query 0xf8bb PTR 246.252.104.142.in-addr.arpa
+
+Frame 83: 88 bytes on wire (704 bits), 88 bytes captured (704 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 37522, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 0.865647000    142.104.252.246       192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 84: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 142.104.252.246, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 0.865908000    207.23.244.242        192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 85: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 207.23.244.242, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 0.866170000    142.104.252.246       192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 86: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 142.104.252.246, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 0.866434000    207.23.244.242        192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 87: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 207.23.244.242, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 0.866698000    207.23.244.242        192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 88: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 207.23.244.242, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 0.868956000    199.212.24.64         192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 89: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 199.212.24.64, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 0.869239000    199.212.24.64         192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 90: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 199.212.24.64, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 0.869503000    199.212.24.64         192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 91: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 199.212.24.64, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 0.870212000    206.12.3.17           192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 92: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 206.12.3.17, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 0.870538000    206.12.3.17           192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 93: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 206.12.3.17, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 0.870810000    206.12.3.17           192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 94: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 206.12.3.17, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 0.871478000    206.81.80.17          192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 95: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 206.81.80.17, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 0.871810000    206.81.80.17          192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 96: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 206.81.80.17, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 0.872083000    206.81.80.17          192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 97: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 206.81.80.17, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 0.879283000    74.125.37.91          192.168.100.17        ICMP     102    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 98: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 74.125.37.91, Dst: 192.168.100.17
+Internet Control Message Protocol
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 0.901542000    8.8.8.8               192.168.100.17        DNS      124    Standard query response 0xf8bb PTR 246.252.104.142.in-addr.arpa PTR emc1cled050.bb.uvic.ca
+
+Frame 99: 124 bytes on wire (992 bits), 124 bytes captured (992 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 37522
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 0.901627000    192.168.100.17        8.8.8.8               UDP      74     33348 → 33468 Len=32
+
+Frame 100: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 33348, Dst Port: 33468
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 0.901772000    192.168.100.17        8.8.8.8               DNS      87     Standard query 0x91a3 PTR 242.244.23.207.in-addr.arpa
+
+Frame 101: 87 bytes on wire (696 bits), 87 bytes captured (696 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 57638, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 0.910988000    74.125.37.91          192.168.100.17        ICMP     102    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 102: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 74.125.37.91, Dst: 192.168.100.17
+Internet Control Message Protocol
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 0.930238000    8.8.8.8               192.168.100.17        DNS      126    Standard query response 0x91a3 PTR 242.244.23.207.in-addr.arpa PTR IX-UVic-cr1.VICTX1.BC.net
+
+Frame 103: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 57638
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    104 0.930409000    192.168.100.17        8.8.8.8               DNS      84     Standard query 0xf0fe PTR 17.3.12.206.in-addr.arpa
+
+Frame 104: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 52047, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    105 0.946604000    8.8.8.8               192.168.100.17        DNS      134    Standard query response 0xf0fe No such name PTR 17.3.12.206.in-addr.arpa SOA ns1.BC.net
+
+Frame 105: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 52047
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 0.946717000    192.168.100.17        8.8.8.8               DNS      86     Standard query 0xa9f9 PTR 64.24.212.199.in-addr.arpa
+
+Frame 106: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 53356, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 0.955178000    8.8.8.8               192.168.100.17        DNS      120    Standard query response 0xa9f9 PTR 64.24.212.199.in-addr.arpa PTR vncv1rtr2.canarie.ca
+
+Frame 107: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 53356
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 0.955344000    192.168.100.17        8.8.8.8               DNS      85     Standard query 0x9dbb PTR 17.80.81.206.in-addr.arpa
+
+Frame 108: 85 bytes on wire (680 bits), 85 bytes captured (680 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 38454, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    109 0.963940000    8.8.8.8               192.168.100.17        DNS      119    Standard query response 0x9dbb PTR 17.80.81.206.in-addr.arpa PTR six.sea01.google.com
+
+Frame 109: 119 bytes on wire (952 bits), 119 bytes captured (952 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 38454
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 0.964070000    192.168.100.17        8.8.8.8               DNS      85     Standard query 0xcf09 PTR 91.37.125.74.in-addr.arpa
+
+Frame 110: 85 bytes on wire (680 bits), 85 bytes captured (680 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 34580, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    111 0.981292000    8.8.8.8               192.168.100.17        DNS      145    Standard query response 0xcf09 No such name PTR 91.37.125.74.in-addr.arpa SOA ns1.google.com
+
+Frame 111: 145 bytes on wire (1160 bits), 145 bytes captured (1160 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 34580
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 0.981346000    192.168.100.17        8.8.8.8               UDP      74     41103 → 33469 Len=32
+
+Frame 112: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 41103, Dst Port: 33469
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 0.981363000    192.168.100.17        8.8.8.8               UDP      74     35966 → 33470 Len=32
+
+Frame 113: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 35966, Dst Port: 33470
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 0.981378000    192.168.100.17        8.8.8.8               UDP      74     44785 → 33471 Len=32
+
+Frame 114: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 44785, Dst Port: 33471
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 0.981392000    192.168.100.17        8.8.8.8               UDP      74     38773 → 33472 Len=32
+
+Frame 115: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 38773, Dst Port: 33472
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 0.981407000    192.168.100.17        8.8.8.8               UDP      74     57726 → 33473 Len=32
+
+Frame 116: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 57726, Dst Port: 33473
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 0.981422000    192.168.100.17        8.8.8.8               UDP      74     43750 → 33474 Len=32
+
+Frame 117: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 43750, Dst Port: 33474
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    118 0.981436000    192.168.100.17        8.8.8.8               UDP      74     35507 → 33475 Len=32
+
+Frame 118: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 35507, Dst Port: 33475
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    119 0.981450000    192.168.100.17        8.8.8.8               UDP      74     57927 → 33476 Len=32
+
+Frame 119: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 57927, Dst Port: 33476
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 0.981464000    192.168.100.17        8.8.8.8               UDP      74     45639 → 33477 Len=32
+
+Frame 120: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 45639, Dst Port: 33477
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    121 0.981478000    192.168.100.17        8.8.8.8               UDP      74     36283 → 33478 Len=32
+
+Frame 121: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 36283, Dst Port: 33478
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    122 0.981492000    192.168.100.17        8.8.8.8               UDP      74     44883 → 33479 Len=32
+
+Frame 122: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 44883, Dst Port: 33479
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    123 0.981506000    192.168.100.17        8.8.8.8               UDP      74     48925 → 33480 Len=32
+
+Frame 123: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 48925, Dst Port: 33480
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    124 0.981520000    192.168.100.17        8.8.8.8               UDP      74     36704 → 33481 Len=32
+
+Frame 124: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 36704, Dst Port: 33481
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    125 0.981534000    192.168.100.17        8.8.8.8               UDP      74     60924 → 33482 Len=32
+
+Frame 125: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 60924, Dst Port: 33482
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    126 0.981549000    192.168.100.17        8.8.8.8               UDP      74     51233 → 33483 Len=32
+
+Frame 126: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 51233, Dst Port: 33483
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    127 0.981585000    192.168.100.17        8.8.8.8               UDP      74     57763 → 33484 Len=32
+
+Frame 127: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 57763, Dst Port: 33484
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    128 0.998970000    72.14.237.123         192.168.100.17        ICMP     102    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 128: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 72.14.237.123, Dst: 192.168.100.17
+Internet Control Message Protocol
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    129 0.999033000    192.168.100.17        8.8.8.8               DNS      86     Standard query 0x8657 PTR 123.237.14.72.in-addr.arpa
+
+Frame 129: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 37497, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    130 0.999846000    209.85.250.121        192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 130: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 209.85.250.121, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    131 1.000147000    8.8.8.8               192.168.100.17        ICMP     102    Destination unreachable (Port unreachable)
+
+Frame 131: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+Internet Control Message Protocol
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    132 1.000413000    8.8.8.8               192.168.100.17        ICMP     102    Destination unreachable (Port unreachable)
+
+Frame 132: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+Internet Control Message Protocol
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    133 1.000670000    8.8.8.8               192.168.100.17        ICMP     102    Destination unreachable (Port unreachable)
+
+Frame 133: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+Internet Control Message Protocol
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    134 1.000930000    8.8.8.8               192.168.100.17        ICMP     102    Destination unreachable (Port unreachable)
+
+Frame 134: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+Internet Control Message Protocol
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    135 1.001184000    209.85.249.155        192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 135: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 209.85.249.155, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    136 1.001454000    8.8.8.8               192.168.100.17        ICMP     102    Destination unreachable (Port unreachable)
+
+Frame 136: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+Internet Control Message Protocol
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    137 1.001711000    8.8.8.8               192.168.100.17        ICMP     102    Destination unreachable (Port unreachable)
+
+Frame 137: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+Internet Control Message Protocol
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    138 1.001964000    209.85.249.153        192.168.100.17        ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 138: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 209.85.249.153, Dst: 192.168.100.17
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    139 1.002231000    8.8.8.8               192.168.100.17        ICMP     102    Destination unreachable (Port unreachable)
+
+Frame 139: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+Internet Control Message Protocol
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    140 1.002488000    8.8.8.8               192.168.100.17        ICMP     102    Destination unreachable (Port unreachable)
+
+Frame 140: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+Internet Control Message Protocol
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    141 1.004149000    8.8.8.8               192.168.100.17        ICMP     102    Destination unreachable (Port unreachable)
+
+Frame 141: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+Internet Control Message Protocol
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    142 1.004472000    8.8.8.8               192.168.100.17        ICMP     102    Destination unreachable (Port unreachable)
+
+Frame 142: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+Internet Control Message Protocol
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    143 1.004736000    8.8.8.8               192.168.100.17        ICMP     102    Destination unreachable (Port unreachable)
+
+Frame 143: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+Internet Control Message Protocol
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    144 1.004997000    8.8.8.8               192.168.100.17        ICMP     102    Destination unreachable (Port unreachable)
+
+Frame 144: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+Internet Control Message Protocol
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    145 1.022582000    8.8.8.8               192.168.100.17        DNS      146    Standard query response 0x8657 No such name PTR 123.237.14.72.in-addr.arpa SOA ns2.google.com
+
+Frame 145: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 37497
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    146 1.022649000    192.168.100.17        8.8.8.8               UDP      74     59949 → 33485 Len=32
+
+Frame 146: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 59949, Dst Port: 33485
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    147 1.022748000    192.168.100.17        8.8.8.8               DNS      87     Standard query 0x796f PTR 155.249.85.209.in-addr.arpa
+
+Frame 147: 87 bytes on wire (696 bits), 87 bytes captured (696 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 47135, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    148 1.031833000    8.8.8.8               192.168.100.17        ICMP     102    Destination unreachable (Port unreachable)
+
+Frame 148: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+Internet Control Message Protocol
+Data (32 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+
+No.     Time           Source                Destination           Protocol Length Info
+    149 1.041092000    8.8.8.8               192.168.100.17        DNS      147    Standard query response 0x796f No such name PTR 155.249.85.209.in-addr.arpa SOA ns1.google.com
+
+Frame 149: 147 bytes on wire (1176 bits), 147 bytes captured (1176 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 47135
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    150 1.041160000    192.168.100.17        8.8.8.8               DNS      87     Standard query 0x0188 PTR 121.250.85.209.in-addr.arpa
+
+Frame 150: 87 bytes on wire (696 bits), 87 bytes captured (696 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 44658, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    151 1.058626000    8.8.8.8               192.168.100.17        DNS      147    Standard query response 0x0188 No such name PTR 121.250.85.209.in-addr.arpa SOA ns1.google.com
+
+Frame 151: 147 bytes on wire (1176 bits), 147 bytes captured (1176 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 44658
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    152 1.058695000    192.168.100.17        8.8.8.8               DNS      87     Standard query 0x2bd4 PTR 153.249.85.209.in-addr.arpa
+
+Frame 152: 87 bytes on wire (696 bits), 87 bytes captured (696 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 35028, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    153 1.075939000    8.8.8.8               192.168.100.17        DNS      147    Standard query response 0x2bd4 No such name PTR 153.249.85.209.in-addr.arpa SOA ns3.google.com
+
+Frame 153: 147 bytes on wire (1176 bits), 147 bytes captured (1176 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 35028
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    154 1.076050000    192.168.100.17        8.8.8.8               DNS      80     Standard query 0x434c PTR 8.8.8.8.in-addr.arpa
+
+Frame 154: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 45456, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    155 1.084586000    8.8.8.8               192.168.100.17        DNS      124    Standard query response 0x434c PTR 8.8.8.8.in-addr.arpa PTR google-public-dns-a.google.com
+
+Frame 155: 124 bytes on wire (992 bits), 124 bytes captured (992 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 53, Dst Port: 45456
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    156 2.230532000    192.168.100.17        91.189.94.4           NTP      90     NTP Version 4, client
+
+Frame 156: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa), Dst: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+    Destination: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.100.17, Dst: 91.189.94.4
+User Datagram Protocol, Src Port: 123, Dst Port: 123
+Network Time Protocol (NTP Version 4, client)
+
+No.     Time           Source                Destination           Protocol Length Info
+    157 2.379147000    91.189.94.4           192.168.100.17        NTP      90     NTP Version 4, server
+
+Frame 157: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc), Dst: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+    Destination: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        Address: Dell_0c:7f:fa (f0:4d:a2:0c:7f:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        Address: Netgear_6b:0d:fc (00:0f:b5:6b:0d:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 91.189.94.4, Dst: 192.168.100.17
+User Datagram Protocol, Src Port: 123, Dst Port: 123
+Network Time Protocol (NTP Version 4, server)
