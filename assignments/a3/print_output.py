@@ -17,14 +17,10 @@ def print_results(parsing_results):
     rtt_dict = parsing_results["rtt_dict"]
     fragment_count = parsing_results["fragment_count"]
 
-    print(f"The IP address of the source node: {source_node_ip}")
-    print(
-        f"The IP address of the ultimate destination node: {ultimate_destination_ip}")
     print('The IP address of the source node:',
           src_packets[0].IP_header.src_ip)
     print('The IP address of ultimate destination node:',
           src_packets[0].IP_header.dst_ip)
-    print("Length of intermediate_ips:", len(intermediate_ips))
 
     print("The IP addresses of the intermediate nodes:")
     for ttl in range(len(intermediate_ips)-1):
