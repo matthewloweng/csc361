@@ -12,6 +12,8 @@ The traceroute is configured to send three probes per TTL value.
 
 ### Question 2: determine whether or not the sequence of intermediate routers is the same in different trace files
 
+The sequence of intermediate routers are not the same for the trace files, though they are similar. Not exact though.
+
 ### Question 3: if the sequence of intermediate routers is different in the five trace files, list the difference and explain why
 
 ### Question 4: if the sequence of intermediate routers is the same in the five trace files, draw a table as shown below (warning: the values in the table do not correspond to any trace files) to compare the RTTs of different traceroute attempts. From the result, which hop is likely to incur the maximum delay? Explain your conclusion.

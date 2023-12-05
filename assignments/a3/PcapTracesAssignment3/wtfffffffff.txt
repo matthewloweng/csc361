@@ -1,0 +1,900 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=176/45056, ttl=1 (no response found!)
+
+Frame 1: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.001817000    192.168.0.1           192.168.0.16          ICMP     134    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 2: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.002541000    192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=177/45312, ttl=1 (no response found!)
+
+Frame 3: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.004202000    192.168.0.1           192.168.0.16          ICMP     134    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 4: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.004838000    192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=178/45568, ttl=1 (no response found!)
+
+Frame 5: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.006597000    192.168.0.1           192.168.0.16          ICMP     134    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 6: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 1.013769000    192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=179/45824, ttl=2 (no response found!)
+
+Frame 7: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 1.026611000    24.108.0.1            192.168.0.16          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 8: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 24.108.0.1, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 1.030009000    192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=180/46080, ttl=2 (no response found!)
+
+Frame 9: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 1.044868000    24.108.0.1            192.168.0.16          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 10: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 24.108.0.1, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 1.046257000    192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=181/46336, ttl=2 (no response found!)
+
+Frame 11: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 1.067017000    24.108.0.1            192.168.0.16          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 12: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 24.108.0.1, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 11.084783000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=182/46592, ttl=3 (no response found!)
+
+Frame 13: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 11.104610000   64.59.161.197         192.168.0.16          ICMP     110    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 14: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 64.59.161.197, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 11.107889000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=183/46848, ttl=3 (no response found!)
+
+Frame 15: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 11.136685000   64.59.161.197         192.168.0.16          ICMP     110    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 16: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 64.59.161.197, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 11.139896000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=184/47104, ttl=3 (no response found!)
+
+Frame 17: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 11.156078000   64.59.161.197         192.168.0.16          ICMP     110    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 18: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 64.59.161.197, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 12.154266000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=185/47360, ttl=4 (no response found!)
+
+Frame 19: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 12.174380000   66.163.72.26          192.168.0.16          ICMP     110    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 20: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 66.163.72.26, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 12.177596000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=186/47616, ttl=4 (no response found!)
+
+Frame 21: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 12.194949000   66.163.72.26          192.168.0.16          ICMP     110    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 22: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 66.163.72.26, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 12.198285000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=187/47872, ttl=4 (no response found!)
+
+Frame 23: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 12.216493000   66.163.72.26          192.168.0.16          ICMP     110    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 24: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 66.163.72.26, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 22.229922000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=188/48128, ttl=5 (no response found!)
+
+Frame 25: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 22.247541000   66.163.68.18          192.168.0.16          ICMP     110    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 26: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 66.163.68.18, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 22.249749000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=189/48384, ttl=5 (no response found!)
+
+Frame 27: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 22.276342000   66.163.68.18          192.168.0.16          ICMP     110    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 28: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 66.163.68.18, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 22.279137000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=190/48640, ttl=5 (no response found!)
+
+Frame 29: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 22.297076000   66.163.68.18          192.168.0.16          ICMP     110    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 30: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 66.163.68.18, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 23.290062000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=191/48896, ttl=6 (no response found!)
+
+Frame 31: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 23.309929000   72.14.221.102         192.168.0.16          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 32: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 72.14.221.102, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 23.313137000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=192/49152, ttl=6 (no response found!)
+
+Frame 33: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 23.331314000   72.14.221.102         192.168.0.16          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 34: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 72.14.221.102, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 23.334449000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=193/49408, ttl=6 (no response found!)
+
+Frame 35: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 23.426821000   72.14.221.102         192.168.0.16          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 36: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 72.14.221.102, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 33.420957000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=194/49664, ttl=7 (no response found!)
+
+Frame 37: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 33.445937000   108.170.245.113       192.168.0.16          ICMP     134    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 38: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 108.170.245.113, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 33.447832000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=195/49920, ttl=7 (no response found!)
+
+Frame 39: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 33.485552000   108.170.245.113       192.168.0.16          ICMP     134    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 40: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 108.170.245.113, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 33.487910000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=196/50176, ttl=7 (no response found!)
+
+Frame 41: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 33.505974000   108.170.245.113       192.168.0.16          ICMP     134    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 42: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 108.170.245.113, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 43.534136000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=197/50432, ttl=8 (no response found!)
+
+Frame 43: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 43.563261000   209.85.249.249        192.168.0.16          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 44: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 209.85.249.249, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 43.566563000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=198/50688, ttl=8 (no response found!)
+
+Frame 45: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 43.586398000   209.85.249.249        192.168.0.16          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 46: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 209.85.249.249, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 43.589325000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=199/50944, ttl=8 (no response found!)
+
+Frame 47: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 43.617235000   209.85.249.249        192.168.0.16          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 48: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 209.85.249.249, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 53.640428000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=200/51200, ttl=9 (reply in 50)
+
+Frame 49: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 53.665096000   8.8.8.8               192.168.0.16          ICMP     106    Echo (ping) reply    id=0x0001, seq=200/51200, ttl=58 (request in 49)
+
+Frame 50: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.0.16
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 53.667591000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=201/51456, ttl=9 (no response found!)
+
+Frame 51: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 57.608831000   192.168.0.16          8.8.8.8               ICMP     106    Echo (ping) request  id=0x0001, seq=202/51712, ttl=9 (reply in 53)
+
+Frame 52: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1), Dst: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+    Destination: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.16, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 57.627047000   8.8.8.8               192.168.0.16          ICMP     106    Echo (ping) reply    id=0x0001, seq=202/51712, ttl=58 (request in 52)
+
+Frame 53: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92), Dst: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+    Destination: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        Address: HonHaiPr_60:5c:b1 (68:14:01:60:5c:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        Address: HitronTe_ad:4a:92 (64:77:7d:ad:4a:92)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.0.16
+Internet Control Message Protocol
