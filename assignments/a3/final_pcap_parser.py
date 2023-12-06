@@ -196,7 +196,16 @@ class PcapParser:
             for identity in id:
                 if len(id[identity]) > 1:
                     fragment_count += 1
+        ttl_dict = {}
+        for p in src_packets:
+            if p.ipv4.ttl not in ttl_dict:
+                ttl_dict[p.ipv4.ttl] = []
+            ttl_dict[p.ipv4.ttl].append(p)
 
+        for ttl in sorted(ttl_dict):
+            # print(f'ttl: {ttl:2d} -> {len(ttl_dict[ttl])} probes')
+            print(len(ttl_dict[ttl]))
+        # exit()
         return {
             "source_node_ip": self.source_node_ip,
             "ultimate_destination_ip": self.ultimate_destination_ip,
